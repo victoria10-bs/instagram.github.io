@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="/img/Instagram_icon.png.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Css Linkup -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap LinkUp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="img/logo.PNG" class="ins-img" alt="">
+            <input type="text" class="search-box" placeholder="search">
+            <div class="nav-items">
+                <img src="img/home.PNG" class="icon" alt="">
+                <img src="img/messenger.PNG" class="icon" alt="">
+                <img data-bs-toggle="modal" data-bs-target="#post-add-modal" src="/img/add.PNG" class="icon" alt="">
+                <img src="img/explore.PNG" class="icon" alt="">
+                <img src="img/like.PNG" class="icon" alt="">
+                <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Story Section Start -->
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/payel.jpg" alt=""></div>
+                        <p class="username">Maeline</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/nafir2.jpg" alt=""></div>
+                        <p class="username">Lucas.Goette</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/pial.jpg" alt=""></div>
+                        <p class="username">Bruno.Poloo</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/dristy.jpg" alt=""></div>
+                        <p class="username">Urzula_Gutierrez</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/tanveer.jpg" alt=""></div>
+                        <p class="username">Perez.Marco</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/rimi.jpg" alt=""></div>
+                        <p class="username">Mila.Muriel</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/nadimvai.jpg" alt=""></div>
+                        <p class="username">ismael.arai</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="img/oh achha.jpg" alt=""></div>
+                        <p class="username">sara.roma</p>
+                    </div>
+                </div>
+                
+                <!-- First Post -->
+                <div class="all-post">
+                    <div class="d-block align-items-center h-110% justify-content-center">
+                        <div class="card" style="width: 450px 60px;">
+                            <div class="card-header">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-3">
+                                        <img class="profile" src="img/user.jpg" alt="">
+                                        <div class="d-flex flex-column">
+                                            <span class="ff-ig-medium d-flex align-items-center gap-2">
+                                                <span>Jhon Doe</span>
+                                                <img src="img/check.svg" alt="">
+                                                •
+                                                <small class="text-muted">8w</small>
+                                            </span>
+                                            <small class="ff-ig-light text-muted">Hotel California • Eagles</small>
+                                        </div>
+                                    </div>
+                
+                                    <img src="img/options.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/banner-4.jpg" class="w-100" style="height: 500px;object-fit: cover;">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/banner-3.jpg" class="w-100" style="height: 500px;object-fit: cover;">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/banner-1.jpg" class="w-100" style="height: 500px;object-fit: cover;">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/banner-2.jpg" class="w-100" style="height: 500px;object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="img/hearth.svg" alt="">
+                                        <img src="img/comments.svg" alt="">
+                                        <img src="img/share.svg" alt="">
+                                    </div>
+                
+                                    <img src="img/mark.svg" alt="">
+                                </div>
+                
+                                <small class="ff-ig-medium">248,065 likes</small>
+                
+                                <br>
+                                
+                                <small class="text-muted">Perez.Marco_La mejor salida</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                    <script>
+                        new Swiper(".mySwiper", {
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                        });
+            </script>
+<!--segundo post-->
+<div class="all-post">
+    <div class="d-block align-items-center h-110% justify-content-center">
+        <div class="card" style="width: 450px 60px;">
+            <div class="card-header">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex gap-3">
+                        <img class="profile" src="img/selfie-5.png" alt="">
+                        <div class="d-flex flex-column">
+                            <span class="ff-ig-medium d-flex align-items-center gap-2">
+                                <span>Maeline James</span>
+                                <img src="img/check.svg" alt="">
+                                •
+                                <small class="text-muted">2w</small>
+                            </span>
+                            <small class="ff-ig-light text-muted">Florida</small>
+                        </div>
+                    </div>
+
+                    <img src="img/options.svg" alt="">
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/selfie1.png" class="w-100" style="height: 500px;object-fit: cover;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/selfie2-png.jpg" class="w-100" style="height: 500px;object-fit: cover;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/selfie3.png" class="w-100" style="height: 500px;object-fit: cover;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/selfie4.png" class="w-100" style="height: 500px;object-fit: cover;">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex gap-3">
+                        <img src="img/hearth.svg" alt="">
+                        <img src="img/comments.svg" alt="">
+                        <img src="img/share.svg" alt="">
+                    </div>
+
+                    <img src="img/mark.svg" alt="">
+                </div>
+
+                <small class="ff-ig-medium">209,584 likes</small>
+
+                <br>
+                
+                <small class="text-muted"> Maeline James Con los mejores</small>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+        </script>
+        <!--tercer post-->
+        <div class="all-post">
+            <div class="d-block align-items-center h-110% justify-content-center">
+                <div class="card" style="width: 450px 60px;">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex gap-3">
+                                <img class="profile" src="img/nieve-5.png" alt="">
+                                <div class="d-flex flex-column">
+                                    <span class="ff-ig-medium d-flex align-items-center gap-2">
+                                        <span>Gloria Santillan</span>
+                                        <img src="img/check.svg" alt="">
+                                        •
+                                        <small class="text-muted">2w</small>
+                                    </span>
+                                    <small class="ff-ig-light text-muted">Bariloche</small>
+                                </div>
+                            </div>
+        
+                            <img src="img/options.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/nieve1.png" class="w-100" style="height: 500px;object-fit: cover;">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/nieve-2.png" class="w-100" style="height: 500px;object-fit: cover;">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/nieve-3.png" class="w-100" style="height: 500px;object-fit: cover;">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/nieve-4.png" class="w-100" style="height: 500px;object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-3">
+                            <div class="d-flex gap-3">
+                                <img src="img/hearth.svg" alt="">
+                                <img src="img/comments.svg" alt="">
+                                <img src="img/share.svg" alt="">
+                            </div>
+        
+                            <img src="img/mark.svg" alt="">
+                        </div>
+        
+                        <small class="ff-ig-medium">695,847 likes</small>
+        
+                        <br>
+                        
+                        <small class="text-muted">Gloria Santillan</small>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                });
+                </script>
+    <!-- Story Section End -->
+
+    <!-- Sidebar Section Start -->
+        <div class="right-col">
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="/img/peofile.jpg" alt="">
+                </div>
+                <div>
+                    <p class="username">Lucas Barba</p>
+                    <p class="sub-text">Lucas Barba (Luca)</p>
+                </div>
+                <button class="action-btn">cambiar</button>
+            </div>
+            <p class="suggestion-text">Sugerencias</p>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="img/kaiful.jpg" alt="">
+                </div>
+                <div>
+                    <p class="username">German_Casillas</p>
+                    <p class="sub-text">Seguido por Bruno.Poloo</p>
+                </div>
+                <button class="action-btn">seguir</button>
+            </div>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="img/pulp.jpg" alt="">
+                </div>
+                <div>
+                    <p class="username">Noah_Romani</p>
+                    <p class="sub-text">Nuevo en instagram</p>
+                </div>
+                <button class="action-btn">seguir</button>
+            </div>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="img/ijaj.jpg" alt="">
+                </div>
+                <div>
+                    <p class="username">Milo.Gonzalez</p>
+                    <p class="sub-text">seguido por Maeline +7 mas</p>
+                </div>
+                <button class="action-btn">seguir</button>
+            </div>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="img/oh achha.jpg"  alt="">
+                </div>
+                <div>
+                    <p class="username">Natasha Schmit</p>
+                    <p class="sub-text">seguido por Bruno.Poloo + 3 mas</p>
+                </div>
+                <button class="action-btn">seguir</button>
+            </div>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="img/mr.jpg" alt="">
+                </div>
+                <div>
+                    <p class="username">Lulo</p>
+                    <p class="sub-text">Followed by Urzula_Gutierrez</p>
+                </div>
+                <button class="action-btn">fseguir</button>
+            </div>
+        </div>
+    
+    <!-- Sidebar Section End -->
+    </section>
+
+
+    <!-- create Post Modal Start -->
+    <div class="modal fade" id="post-add-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2>Create Post</h2>
+                    <hr>
+                    <div class="msg"></div>
+                    <form id="post_add_form">
+                        <div class="my-3">
+                            <label for="">Author Name</label>
+                            <input name="aname" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Author Profile Photo</label>
+                            <input name="aphoto" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Post Content</label>
+                            <textarea name="pcontent" class="form-control" placeholder="Write a caption..."></textarea>
+                        </div>
+                        <div class="my-3">
+                            <label for="">Post Photo</label>
+                            <input name="pphoto" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Please Mention Your Post Date</label>
+                            <input name="pdate" type="date" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <!-- <button type="button" class="btn btn-primary w-100">Create Post</button> -->
+                            <input type="submit" class="btn btn-primary w-100" value="Create Post">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- create Post Modal End  -->
+
+
+    <!-- Edit Modal Start -->
+    <!-- Edit Modal -->
+    <div class="modal fade" id="edit-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Your Post</h2>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="msg"></div>
+                <form action="" id="edit_post">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Edit Modal End -->
+
+    
+    <!-- JavaScript Linkup -->
+    <script src="/function.js"></script>
+    <script src="/main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
